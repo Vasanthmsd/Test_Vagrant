@@ -1,0 +1,10 @@
+@Test
+Public void Wicket_keeper(){
+
+ get(url)
+ .then()
+ .assertThat()
+ .body("player.role[4]",Is.is("WicketKeeper"))
+ .log()
+
+}
